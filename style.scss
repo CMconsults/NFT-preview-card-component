@@ -1,0 +1,100 @@
+// colors
+$Softblue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+$Verydarkblue__mainBG: hsl(217, 54%, 11%);
+$Verydarkblue__cardBG: hsl(216, 50%, 16%);
+$Verydarkblue__line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    background-color: $Verydarkblue__mainBG;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.container{
+    background-color: $Verydarkblue__cardBG;
+    width: 230px;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    
+
+    img{
+        width: 100%;
+        border-radius: 10px;
+        align-items: center;
+    }
+    .info--area{
+         
+        h1{
+            color: $White;
+            font-weight: 600;
+            font-size: 1rem;
+             
+        }
+
+        p{
+            color: $Softblue;
+            font-weight: 300;
+            font-size: 0.9rem;
+             
+        }
+    }
+}
+
+.currency--area{
+     
+    display: flex;
+    justify-content: space-between;
+    .currency__area1{
+         
+        display: flex;
+        align-items: center;
+        color: $Cyan;
+        font-size: 0.9rem;
+        svg{
+            margin-right: 6px;
+        }
+    }
+    .currency__area2{
+         
+        display: flex;
+        align-items: center;
+        color: $Softblue;
+        font-size: 0.9rem;
+        svg{
+            margin-right: 6px;
+        }
+    }
+}
+
+hr.style1{
+    border: none;
+    height: 0.1px;
+    background: $Softblue;
+}
+
+.creator--info{
+        display: flex;
+        align-items: center;
+        img{
+            width: 30px;
+            border: solid 1px;
+            border-color: $White;
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+        p{
+            color: $Softblue;
+            .text__right{
+                color: $White;
+            }
+        }
+}
