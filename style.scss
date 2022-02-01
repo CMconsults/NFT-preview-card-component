@@ -9,9 +9,13 @@ $White: hsl(0, 0%, 100%);
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-*{
+body{
     background-color: $Verydarkblue__mainBG;
     font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -19,11 +23,11 @@ $White: hsl(0, 0%, 100%);
     background-color: $Verydarkblue__cardBG;
     width: 230px;
     max-width: 100%;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-    margin: auto;
-    position: relative;
-    top: 50px;
+    // margin: auto;
+    // position: relative;
+    // top: 50px;
     
 
     img{
